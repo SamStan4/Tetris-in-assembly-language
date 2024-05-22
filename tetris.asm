@@ -14,14 +14,19 @@ _return_here:
     syscall
 
 ;============================================================================================================================================================================================|
-;   function name     : _print_tetris_title
-;   function purpose  : prints out the text "~TETRIS~" to the terminal
-;   function inputs   : none
-;   call stack        : -->[return address]-->?
-;   programmer        : sam stanley
-;   help              : text from https://patorjk.com/software/taag/#p=display&f=Graffiti&t=~TETRIS~
-;   date created      : 5/21/24
-;   last edited       : 5/22/24
+;   function name        : _print_tetris_title
+;   function purpose     : prints out the text "~TETRIS~" to the terminal
+;   function input %rdi  : none
+;   function input %rsi  : none
+;   function input %rdx  : none
+;   function input %r8   : none
+;   function input %r9   : none
+;   call stack           : -->[return address]-->?
+;   function output %rax : none
+;   programmer           : sam stanley
+;   help                 : text from https://patorjk.com/software/taag/#p=display&f=Graffiti&t=~TETRIS~
+;   date created         : 5/21/24
+;   last edited          : 5/22/24
 
 _print_tetris_title:
 
