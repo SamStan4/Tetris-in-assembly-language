@@ -1,4 +1,4 @@
-# Tetris in assembly language (work in progress)
+# Tetris (work in progress)
 The Classic Tetris Game 😎
 ## Dependencies
 ![NASM](https://img.shields.io/badge/NASM-563D7C?style=for-the-badge&logo=nasm&logoColor=white)
